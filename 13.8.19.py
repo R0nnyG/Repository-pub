@@ -9,8 +9,8 @@ for i in range(1, ticket + 1):
     elif 25 <= age:
         price.append(1390)
 if ticket >= 3:
-    a = int(sum(price) - sum(price)/10)
-    print("Стоимость билетов со скидкой: ", a)
+    discount = int(sum(price) - sum(price)/10)
+    print("Стоимость билетов со скидкой: ", discount)
 else:
     a = sum(price)
-    print("Стоимость билетов: ", a)
+    print("Стоимость билетов: ", discount)
