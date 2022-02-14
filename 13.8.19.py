@@ -12,5 +12,5 @@ if ticket >= 3:
     discount = int(sum(price) - sum(price)/10)
     print("Стоимость билетов со скидкой: ", discount)
 else:
-    a = sum(price)
-    print("Стоимость билетов: ", discount)
+    full_price = sum(price)
+    print("Стоимость билетов: ", full_price)
